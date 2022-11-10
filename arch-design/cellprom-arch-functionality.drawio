@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T15:36:11.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" version="20.5.3" etag="ow8v_GzwPSDtuxl4ibav" type="github"><diagram id="_cN58llFPaat6uqs2sQy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-10T17:18:04.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="GFVa9B5oJNC9gafZGYBz" version="20.5.3" type="github">
+  <diagram id="_cN58llFPaat6uqs2sQy" name="Página-1">
+    <mxGraphModel dx="2842" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OaO8W6YDeW8j8XCaVgdy-2" target="OaO8W6YDeW8j8XCaVgdy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OaO8W6YDeW8j8XCaVgdy-2" target="OaO8W6YDeW8j8XCaVgdy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OaO8W6YDeW8j8XCaVgdy-2" target="OaO8W6YDeW8j8XCaVgdy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OaO8W6YDeW8j8XCaVgdy-2" target="OaO8W6YDeW8j8XCaVgdy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-2" value="ENTIDADES&lt;br&gt;&lt;br&gt;- Paciente&lt;br&gt;- Sistema&lt;br&gt;- Órgano&lt;br&gt;- Célula" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="10" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OaO8W6YDeW8j8XCaVgdy-3" target="OaO8W6YDeW8j8XCaVgdy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-3" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-5" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Tipo&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="250" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OaO8W6YDeW8j8XCaVgdy-11" target="OaO8W6YDeW8j8XCaVgdy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-11" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Tipo" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="290" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OaO8W6YDeW8j8XCaVgdy-13" target="OaO8W6YDeW8j8XCaVgdy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-13" value="PACIENTE&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Apellidos&lt;br&gt;- DNI&lt;br&gt;- Fecha Nacimiento&lt;br&gt;- Edad&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="290" width="210" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
