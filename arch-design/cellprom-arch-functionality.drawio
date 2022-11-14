@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T13:29:02.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="xi_cjEZ4ULgnoD7170Yw" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-14T13:36:17.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="ZhQzQGZTCRVe2VHq9nOp" version="20.5.3" type="github" pages="2">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="2842" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="OaO8W6YDeW8j8XCaVgdy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OaO8W6YDeW8j8XCaVgdy-2" target="OaO8W6YDeW8j8XCaVgdy-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OaO8W6YDeW8j8XCaVgdy-2" value="ENTIDADES&lt;br&gt;&lt;br&gt;- Paciente&lt;br&gt;- Sistema&lt;br&gt;- Órgano&lt;br&gt;- Tumor&lt;br&gt;- Célula" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="OaO8W6YDeW8j8XCaVgdy-2" value="ENTIDADES&lt;br&gt;&lt;br&gt;- Paciente&lt;br&gt;- Sistema&lt;br&gt;- Órgano&lt;br&gt;- Tumor&lt;br&gt;- Célula&lt;br&gt;- Indicador" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="120" y="10" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="OaO8W6YDeW8j8XCaVgdy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OaO8W6YDeW8j8XCaVgdy-3" target="OaO8W6YDeW8j8XCaVgdy-5" edge="1">
@@ -56,8 +56,8 @@
         <mxCell id="OaO8W6YDeW8j8XCaVgdy-19" value="1..n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EpF7WC67ICtsQia1E6r4-1" value="INDICADORES&lt;br&gt;&lt;br&gt;- Temperatura&lt;br&gt;- APOP" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="710" width="200" height="260" as="geometry" />
+        <mxCell id="EpF7WC67ICtsQia1E6r4-1" value="INDICADORES&lt;br&gt;&lt;br&gt;- Temperatura&lt;br&gt;- Hierro&lt;br&gt;- Azúcar&lt;br&gt;- Sodio&lt;br&gt;- Colesterol&lt;br&gt;- Hemoglobina&lt;br&gt;- APOP" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="710" width="200" height="260" as="geometry" />
         </mxCell>
         <mxCell id="EpF7WC67ICtsQia1E6r4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EpF7WC67ICtsQia1E6r4-3" target="OaO8W6YDeW8j8XCaVgdy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -85,7 +85,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="K4tZ_t3IwegpDBWJzdcR-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Tipo&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores&lt;br&gt;- Estado" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="K4tZ_t3IwegpDBWJzdcR-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: RC-CELL1&lt;br&gt;- Tipo: GLOBULO_ROJO&lt;br&gt;- Subtipo: AB+&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="80" width="250" height="280" as="geometry" />
         </mxCell>
       </root>
