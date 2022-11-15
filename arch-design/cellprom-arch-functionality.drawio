@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T18:01:06.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="hx832DPQv2RzLRKTRwno" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-15T18:01:52.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="Ug8iBvS2g3MmVHUY_7jy" version="20.5.3" type="github" pages="6">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="2842" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,7 +202,7 @@
         <mxCell id="05GHNapIB6HmdiQ_jSyd-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Sistema&lt;br&gt;- Paciente&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="50" y="100" width="230" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="Ku8EV_G2t_sUTSN49u76-1" value="TABLA ID/NAME ORGANOS&lt;br&gt;&lt;br&gt;- HEART&lt;br&gt;-&lt;br&gt;- Paciente&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="Ku8EV_G2t_sUTSN49u76-1" value="TABLA ID/NAME ORGANOS&lt;br&gt;&lt;br&gt;- HEART&lt;br&gt;- ....&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="380" y="200" width="380" height="280" as="geometry" />
         </mxCell>
       </root>
