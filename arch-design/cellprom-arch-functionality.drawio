@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T12:54:01.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="u2k4RzBJr_ClIuB6T5ZT" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-15T13:14:53.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="cnKS9addOZo6zR0yHMUp" version="20.5.3" type="github" pages="5">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="2842" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,8 +103,11 @@
         <mxCell id="KCaBM3fXZXuTWywcBzEg-3" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-CELL-000001&lt;br&gt;- Temperatura: 36,5ºC&lt;br&gt;- Hierro: 125&lt;br&gt;- Azúcar: 218&lt;br&gt;- Sodio: 23&lt;br&gt;- Colesterol: 123&lt;br&gt;- Hemoglobina&lt;br&gt;- APOP: false" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="440" width="200" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Sistema&lt;br&gt;- Paciente&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="20" y="80" width="230" height="280" as="geometry" />
+        <mxCell id="A95CypQefD-a_IbZxG2r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-1" target="6yqOPjLSk77BnO4GHsQG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre: PULMON IZQ&lt;br&gt;- Sistema: Respiratorio&lt;br&gt;- Paciente:&amp;nbsp;&lt;br&gt;- Indicadores:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;IND-PLM-000001&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="770" width="230" height="280" as="geometry" />
         </mxCell>
         <mxCell id="6yqOPjLSk77BnO4GHsQG-2" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: CIRCULATORIO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Tipo&lt;br&gt;- Indicadores:" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="80" width="220" height="280" as="geometry" />
@@ -124,19 +127,18 @@
         <mxCell id="6yqOPjLSk77BnO4GHsQG-4" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: DIGESTIVO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Tipo&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="390" width="220" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-5" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: RESPIRATORIO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Indicadores: IND-SIST-000001" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="700" width="220" height="280" as="geometry" />
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-5" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: RESPIRATORIO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Estado: OPERATIVO" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="770" width="220" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-9" target="6yqOPjLSk77BnO4GHsQG-5">
+        <mxCell id="A95CypQefD-a_IbZxG2r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-9" target="6yqOPjLSk77BnO4GHsQG-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="40" y="960" />
-              <mxPoint x="40" y="840" />
+              <mxPoint x="550" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-9" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-SIST-000001&lt;br&gt;- Estado: OPERATIVO&lt;br&gt;- % celulas sanas: 47%&lt;br&gt;- Oxígeno: 87 %&lt;br&gt;- Pulmon1: 125&lt;br&gt;- Pulmon2: 218&lt;br&gt;- Alveolos activos: 23&lt;br&gt;- Alveolos dañados: 123&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="820" width="200" height="280" as="geometry" />
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-9" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-PLM-000001&lt;br&gt;- Estado: OPERATIVO&lt;br&gt;- % celulas sanas: 47%&lt;br&gt;- Oxígeno: 87 %&lt;br&gt;- Alveolos activos: 23&lt;br&gt;- Alveolos dañados: 123" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="770" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="6yqOPjLSk77BnO4GHsQG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KCaBM3fXZXuTWywcBzEg-3" target="KCaBM3fXZXuTWywcBzEg-2">
           <mxGeometry relative="1" as="geometry">
@@ -150,6 +152,67 @@
             <mxPoint x="590" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="A95CypQefD-a_IbZxG2r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A95CypQefD-a_IbZxG2r-5" target="6yqOPjLSk77BnO4GHsQG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A95CypQefD-a_IbZxG2r-5" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre: PULMON DER&lt;br&gt;- Sistema: Respiratorio&lt;br&gt;- Paciente:&amp;nbsp;&lt;br&gt;- Indicadores:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;IND-PLM-000002&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1100" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="A95CypQefD-a_IbZxG2r-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A95CypQefD-a_IbZxG2r-6" target="A95CypQefD-a_IbZxG2r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A95CypQefD-a_IbZxG2r-6" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-PLM-000002&lt;br&gt;- Estado: OPERATIVO&lt;br&gt;- % celulas sanas: 47%&lt;br&gt;- Oxígeno: 87 %&lt;br&gt;- Alveolos activos: 23&lt;br&gt;- Alveolos dañados: 123" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1100" width="200" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U2mYNKG8Bb0zKvq4t59I" name="CELULA">
+    <mxGraphModel dx="2015" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-2" value="ESTADOS CELULARES&lt;br&gt;&lt;br&gt;ACTIVA&lt;br&gt;REPLICANDO&lt;br&gt;APOPTOSIS&lt;br&gt;MUERTA&lt;br&gt;NO RECONOCIDO" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-3" value="TIPOS CELULARES&lt;br&gt;&lt;br&gt;https://medicoplus.com/ciencia/tipos-celulas-cuerpo-humano" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="240" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ToOY8B5eZ_Xl16pSbgc-" name="ÓRGANOS">
+    <mxGraphModel dx="2015" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="https://medicoplus.com/medicina-general/organos-cuerpo-humano&lt;br&gt;&lt;br&gt;30 órganos&lt;br&gt;650 músculos&lt;br&gt;206 huesos" link="https://medicoplus.com/medicina-general/organos-cuerpo-humano" id="qNYjhVosEjMtWllWOa7Z-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="380" y="30" width="390" height="150" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="05GHNapIB6HmdiQ_jSyd-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Sistema&lt;br&gt;- Paciente&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="230" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6xYjRcisMuoxMNXfadaD" name="SISTEMAS">
+    <mxGraphModel dx="2015" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eJGFAtAS7eNo9EmTJ8Ms-1" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Paciente&lt;br&gt;- Tipo&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="220" height="280" as="geometry" />
+        </mxCell>
+        <UserObject label="https://psicologiaymente.com/salud/sistemas-cuerpo-humano&lt;br&gt;&lt;br&gt;12 sistemas" link="https://psicologiaymente.com/salud/sistemas-cuerpo-humano" id="eJGFAtAS7eNo9EmTJ8Ms-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="400" y="40" width="360" height="160" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
