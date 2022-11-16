@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T13:12:56.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="4o4Ov9PuOs0IAKXt9hKl" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-16T13:17:21.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="DdUAQkS1NePEmg4kKBmY" version="20.5.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Maker Patient Event Flow N1">
     <mxGraphModel dx="2865" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -602,6 +602,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="695" y="490" as="sourcePoint" />
             <mxPoint x="695" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="855" y="500" />
+              <mxPoint x="570" y="500" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AM82pgl3Qrm1n0prbC0w-66" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="AM82pgl3Qrm1n0prbC0w-65">
@@ -624,9 +628,7 @@
             <mxPoint x="964.5" y="350" as="sourcePoint" />
             <mxPoint x="964.5" y="509" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="965" y="490" />
-              <mxPoint x="890" y="490" />
-              <mxPoint x="890" y="535" />
+              <mxPoint x="965" y="535" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -656,7 +658,7 @@
             <mxPoint y="148" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AM82pgl3Qrm1n0prbC0w-74" value="&amp;lt; TODO &amp;gt;&lt;br&gt;Reflejar el flujo de eventos al crear un sistema con 1 organo, ejemplo circulatorio con el corazón" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=29;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="AM82pgl3Qrm1n0prbC0w-74" value="&amp;lt; TODO &amp;gt;&lt;br&gt;Reflejar el flujo de eventos al crear un sistema con 3 órgano, ejemplo circulatorio con el corazón, arterias y venas" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=29;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="190" y="660" width="490" height="220" as="geometry" />
         </mxCell>
       </root>
