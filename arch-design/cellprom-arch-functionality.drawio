@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T18:01:52.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="Ug8iBvS2g3MmVHUY_7jy" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-16T10:33:53.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="UGx0YqfwhMUHcE24YZME" version="20.5.3" type="github" pages="6">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="2842" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
           <mxGeometry x="414" y="800" width="60" height="30" as="geometry" />
         </mxCell>
         <UserObject label="NEXT TODO:&lt;br style=&quot;font-size: 16px;&quot;&gt;- Pasar a Ingles todo&lt;br style=&quot;font-size: 16px;&quot;&gt;- Poner la lista de los IDNames de Organos&lt;br style=&quot;font-size: 16px;&quot;&gt;- Poner la lista de los IDNames de Sistemas" link="https://medicoplus.com/medicina-general/organos-cuerpo-humano" id="DWbYUS_qwRUuCJfKVVCt-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" parent="1" vertex="1">
             <mxGeometry x="-720" y="700" width="500" height="150" as="geometry" />
           </mxCell>
         </UserObject>
@@ -213,12 +213,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eJGFAtAS7eNo9EmTJ8Ms-1" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Paciente&lt;br&gt;- Tipo&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="eJGFAtAS7eNo9EmTJ8Ms-1" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Paciente&lt;br&gt;- Tipo&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="40" width="220" height="280" as="geometry" />
         </mxCell>
-        <UserObject label="https://psicologiaymente.com/salud/sistemas-cuerpo-humano&lt;br&gt;&lt;br&gt;12 sistemas" link="https://psicologiaymente.com/salud/sistemas-cuerpo-humano" id="eJGFAtAS7eNo9EmTJ8Ms-2">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="400" y="40" width="360" height="160" as="geometry" />
+        <UserObject label="https://psicologiaymente.com/salud/sistemas-cuerpo-humano&lt;br&gt;&lt;br&gt;12 sistemas&lt;br&gt;&lt;br&gt;vamos a comenzar trabajando con 3:&lt;br&gt;- Circulatorio&lt;br&gt;- Respiratorio&lt;br&gt;- Digestivo" link="https://psicologiaymente.com/salud/sistemas-cuerpo-humano" id="eJGFAtAS7eNo9EmTJ8Ms-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="400" y="40" width="360" height="140" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
@@ -229,10 +229,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RLy7l9dDt050YYcQej_e-1" value="PACIENTE&lt;br&gt;&lt;br&gt;- Nombre: Juanito&lt;br&gt;- Apellidos: Perez&lt;br&gt;- DNI: 999888777P&lt;br&gt;- Fecha Nacimiento: 12-07-1982&lt;br&gt;- Edad: 40&lt;br&gt;- Estado: SANO&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="RLy7l9dDt050YYcQej_e-1" value="PACIENTE&lt;br&gt;&lt;br&gt;- Nombre: Juanito&lt;br&gt;- Apellidos: Perez&lt;br&gt;- DNI: 999888777P&lt;br&gt;- Fecha Nacimiento: 12-07-1982&lt;br&gt;- Edad: 40&lt;br&gt;- Estado: SANO&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="70" width="210" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="RLy7l9dDt050YYcQej_e-2" value="ESTADOS&lt;br&gt;&lt;br&gt;- SANO&lt;br&gt;- WARNING&lt;br&gt;- GRAVE&lt;br&gt;- TERMINAL&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="RLy7l9dDt050YYcQej_e-2" value="ESTADOS&lt;br&gt;&lt;br&gt;- SANO&lt;br&gt;- WARNING&lt;br&gt;- GRAVE&lt;br&gt;- TERMINAL&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="70" width="210" height="150" as="geometry" />
         </mxCell>
       </root>
