@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T10:33:53.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="UGx0YqfwhMUHcE24YZME" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-16T15:51:17.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="dlxigCHEasScI1WSFE-d" version="20.5.3" type="github" pages="6">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="2842" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,83 +90,83 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ta_O9RVlNAwFdmPyPT-_-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="Ta_O9RVlNAwFdmPyPT-_-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="80" width="240" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="HPBYPKKckaDwcKIkUCT1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HPBYPKKckaDwcKIkUCT1-1" target="Ta_O9RVlNAwFdmPyPT-_-1">
+        <mxCell id="HPBYPKKckaDwcKIkUCT1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HPBYPKKckaDwcKIkUCT1-1" target="Ta_O9RVlNAwFdmPyPT-_-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HPBYPKKckaDwcKIkUCT1-1" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-CELL-000001&lt;br&gt;- Temperatura: 36,5ºC&lt;br&gt;- Hierro: 125&lt;br&gt;- Azúcar: 218&lt;br&gt;- Sodio: 23&lt;br&gt;- Colesterol: 123&lt;br&gt;- Hemoglobina&lt;br&gt;- APOP: false" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="HPBYPKKckaDwcKIkUCT1-1" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-CELL-000001&lt;br&gt;- Temperatura: 36,5ºC&lt;br&gt;- Hierro: 125&lt;br&gt;- Azúcar: 218&lt;br&gt;- Sodio: 23&lt;br&gt;- Colesterol: 123&lt;br&gt;- Hemoglobina&lt;br&gt;- APOP: false" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="80" width="200" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="KCaBM3fXZXuTWywcBzEg-1" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KCaBM3fXZXuTWywcBzEg-1" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KCaBM3fXZXuTWywcBzEg-2" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="KCaBM3fXZXuTWywcBzEg-2" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="440" width="240" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="KCaBM3fXZXuTWywcBzEg-3" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-CELL-000001&lt;br&gt;- Temperatura: 36,5ºC&lt;br&gt;- Hierro: 125&lt;br&gt;- Azúcar: 218&lt;br&gt;- Sodio: 23&lt;br&gt;- Colesterol: 123&lt;br&gt;- Hemoglobina&lt;br&gt;- APOP: false" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="KCaBM3fXZXuTWywcBzEg-3" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-CELL-000001&lt;br&gt;- Temperatura: 36,5ºC&lt;br&gt;- Hierro: 125&lt;br&gt;- Azúcar: 218&lt;br&gt;- Sodio: 23&lt;br&gt;- Colesterol: 123&lt;br&gt;- Hemoglobina&lt;br&gt;- APOP: false" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="440" width="200" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-1" target="6yqOPjLSk77BnO4GHsQG-5">
+        <mxCell id="A95CypQefD-a_IbZxG2r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6yqOPjLSk77BnO4GHsQG-1" target="6yqOPjLSk77BnO4GHsQG-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre: PULMON IZQ&lt;br&gt;- Sistema: Respiratorio&lt;br&gt;- Paciente:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;999888777P&lt;/span&gt;&lt;br&gt;- Indicadores:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;IND-PLM-000001&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre: PULMON IZQ&lt;br&gt;- Sistema: Respiratorio&lt;br&gt;- Paciente:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;999888777P&lt;/span&gt;&lt;br&gt;- Indicadores:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;IND-PLM-000001&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="120" y="770" width="230" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-2" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: CIRCULATORIO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Tipo&lt;br&gt;- Indicadores:" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-2" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: CIRCULATORIO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Tipo&lt;br&gt;- Indicadores:" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-300" y="80" width="220" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-3" target="6yqOPjLSk77BnO4GHsQG-2">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6yqOPjLSk77BnO4GHsQG-3" target="6yqOPjLSk77BnO4GHsQG-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-3" target="6yqOPjLSk77BnO4GHsQG-4">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6yqOPjLSk77BnO4GHsQG-3" target="6yqOPjLSk77BnO4GHsQG-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-3" target="6yqOPjLSk77BnO4GHsQG-5">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6yqOPjLSk77BnO4GHsQG-3" target="6yqOPjLSk77BnO4GHsQG-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-3" value="PACIENTE&lt;br&gt;&lt;br&gt;- Nombre: Juanito&lt;br&gt;- Apellidos: Perez&lt;br&gt;- DNI: 999888777P&lt;br&gt;- Fecha Nacimiento: 12-07-1982&lt;br&gt;- Edad: 40&lt;br&gt;- Estado: SANO&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-3" value="PACIENTE&lt;br&gt;&lt;br&gt;- Nombre: Juanito&lt;br&gt;- Apellidos: Perez&lt;br&gt;- DNI: 999888777P&lt;br&gt;- Fecha Nacimiento: 12-07-1982&lt;br&gt;- Edad: 40&lt;br&gt;- Estado: SANO&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-590" y="80" width="210" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-4" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: DIGESTIVO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Tipo&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-4" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: DIGESTIVO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Tipo&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-300" y="390" width="220" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-5" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: RESPIRATORIO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Estado: OPERATIVO" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-5" value="SISTEMA&lt;br&gt;&lt;br&gt;- Nombre: RESPIRATORIO&lt;br&gt;- Paciente: PC0001&lt;br&gt;- Estado: OPERATIVO" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-300" y="750" width="220" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6yqOPjLSk77BnO4GHsQG-9" target="6yqOPjLSk77BnO4GHsQG-1">
+        <mxCell id="A95CypQefD-a_IbZxG2r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6yqOPjLSk77BnO4GHsQG-9" target="6yqOPjLSk77BnO4GHsQG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="550" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-9" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-PLM-000001&lt;br&gt;- Estado: OPERATIVO&lt;br&gt;- % celulas sanas: 47%&lt;br&gt;- Oxígeno: 87 %&lt;br&gt;- Alveolos activos: 23&lt;br&gt;- Alveolos dañados: 123" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-9" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-PLM-000001&lt;br&gt;- Estado: OPERATIVO&lt;br&gt;- % celulas sanas: 47%&lt;br&gt;- Oxígeno: 87 %&lt;br&gt;- Alveolos activos: 23&lt;br&gt;- Alveolos dañados: 123" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="770" width="200" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6yqOPjLSk77BnO4GHsQG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KCaBM3fXZXuTWywcBzEg-3" target="KCaBM3fXZXuTWywcBzEg-2">
+        <mxCell id="6yqOPjLSk77BnO4GHsQG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KCaBM3fXZXuTWywcBzEg-3" target="KCaBM3fXZXuTWywcBzEg-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="840" y="570" as="sourcePoint" />
             <mxPoint x="580" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KCaBM3fXZXuTWywcBzEg-2" target="6yqOPjLSk77BnO4GHsQG-1">
+        <mxCell id="A95CypQefD-a_IbZxG2r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KCaBM3fXZXuTWywcBzEg-2" target="6yqOPjLSk77BnO4GHsQG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="590" as="sourcePoint" />
             <mxPoint x="590" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A95CypQefD-a_IbZxG2r-5" target="6yqOPjLSk77BnO4GHsQG-5">
+        <mxCell id="A95CypQefD-a_IbZxG2r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A95CypQefD-a_IbZxG2r-5" target="6yqOPjLSk77BnO4GHsQG-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-5" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre: PULMON DER&lt;br&gt;- Sistema: Respiratorio&lt;br&gt;- Paciente:&amp;nbsp;&lt;br&gt;- Indicadores:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;IND-PLM-000002&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="A95CypQefD-a_IbZxG2r-5" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre: PULMON DER&lt;br&gt;- Sistema: Respiratorio&lt;br&gt;- Paciente:&amp;nbsp;&lt;br&gt;- Indicadores:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;IND-PLM-000002&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="120" y="1100" width="230" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A95CypQefD-a_IbZxG2r-6" target="A95CypQefD-a_IbZxG2r-5">
+        <mxCell id="A95CypQefD-a_IbZxG2r-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A95CypQefD-a_IbZxG2r-6" target="A95CypQefD-a_IbZxG2r-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A95CypQefD-a_IbZxG2r-6" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-PLM-000002&lt;br&gt;- Estado: OPERATIVO&lt;br&gt;- % celulas sanas: 47%&lt;br&gt;- Oxígeno: 87 %&lt;br&gt;- Alveolos activos: 23&lt;br&gt;- Alveolos dañados: 123" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="A95CypQefD-a_IbZxG2r-6" value="INDICADOR&lt;br&gt;&lt;br&gt;- ID: IND-PLM-000002&lt;br&gt;- Estado: OPERATIVO&lt;br&gt;- % celulas sanas: 47%&lt;br&gt;- Oxígeno: 87 %&lt;br&gt;- Alveolos activos: 23&lt;br&gt;- Alveolos dañados: 123" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="1100" width="200" height="280" as="geometry" />
         </mxCell>
       </root>
@@ -177,13 +177,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CJuzdTtkHHHPnk4-6KMi-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="50" width="240" height="280" as="geometry" />
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="50" width="240" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="CJuzdTtkHHHPnk4-6KMi-2" value="ESTADOS CELULARES&lt;br&gt;&lt;br&gt;ACTIVA&lt;br&gt;REPLICANDO&lt;br&gt;APOPTOSIS&lt;br&gt;MUERTA&lt;br&gt;NO RECONOCIDO" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-2" value="ESTADOS CELULARES&lt;br&gt;&lt;br&gt;ACTIVA&lt;br&gt;REPLICANDO&lt;br&gt;APOPTOSIS&lt;br&gt;MUERTA&lt;br&gt;NO RECONOCIDO" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="50" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="CJuzdTtkHHHPnk4-6KMi-3" value="TIPOS CELULARES&lt;br&gt;&lt;br&gt;https://medicoplus.com/ciencia/tipos-celulas-cuerpo-humano" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-3" value="TIPOS CELULARES&lt;br&gt;&lt;br&gt;https://medicoplus.com/ciencia/tipos-celulas-cuerpo-humano" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="230" width="240" height="130" as="geometry" />
         </mxCell>
       </root>
@@ -195,14 +195,14 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="https://medicoplus.com/medicina-general/organos-cuerpo-humano&lt;br&gt;&lt;br&gt;30 órganos&lt;br&gt;650 músculos&lt;br&gt;206 huesos" link="https://medicoplus.com/medicina-general/organos-cuerpo-humano" id="qNYjhVosEjMtWllWOa7Z-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="380" y="30" width="390" height="150" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="05GHNapIB6HmdiQ_jSyd-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Sistema&lt;br&gt;- Paciente&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="05GHNapIB6HmdiQ_jSyd-1" value="ORGANO&lt;br&gt;&lt;br&gt;- Nombre&lt;br&gt;- Sistema&lt;br&gt;- Paciente&lt;br&gt;- Indicadores" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="50" y="100" width="230" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="Ku8EV_G2t_sUTSN49u76-1" value="TABLA ID/NAME ORGANOS&lt;br&gt;&lt;br&gt;- HEART&lt;br&gt;- ....&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="Ku8EV_G2t_sUTSN49u76-1" value="TABLA ID/NAME ORGANOS&lt;br&gt;&lt;br&gt;- HEART&lt;br&gt;- ....&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="380" y="200" width="380" height="280" as="geometry" />
         </mxCell>
       </root>
@@ -218,9 +218,75 @@
         </mxCell>
         <UserObject label="https://psicologiaymente.com/salud/sistemas-cuerpo-humano&lt;br&gt;&lt;br&gt;12 sistemas&lt;br&gt;&lt;br&gt;vamos a comenzar trabajando con 3:&lt;br&gt;- Circulatorio&lt;br&gt;- Respiratorio&lt;br&gt;- Digestivo" link="https://psicologiaymente.com/salud/sistemas-cuerpo-humano" id="eJGFAtAS7eNo9EmTJ8Ms-2">
           <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="400" y="40" width="360" height="140" as="geometry" />
+            <mxGeometry x="400" y="40" width="360" height="280" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="FX_y17xqAzENTxjthQCr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-4" target="FX_y17xqAzENTxjthQCr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-4" target="FX_y17xqAzENTxjthQCr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-4" target="FX_y17xqAzENTxjthQCr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-4" value="Paciente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-8" target="FX_y17xqAzENTxjthQCr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-8" target="FX_y17xqAzENTxjthQCr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-8" target="FX_y17xqAzENTxjthQCr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-8" value="CIRCULATORY SYSTEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-9" value="CIRCULATORY SYSTEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-10" value="CIRCULATORY SYSTEM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-12" target="FX_y17xqAzENTxjthQCr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-12" value="HEART" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-15" target="FX_y17xqAzENTxjthQCr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-15" target="FX_y17xqAzENTxjthQCr-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-15" value="ARTERY" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontSize=14;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="FX_y17xqAzENTxjthQCr-17" target="FX_y17xqAzENTxjthQCr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-17" value="VEIN" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-18" value="CORONARY" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-19" value="ENDOTHELIAL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-20" value="LEUKOCYTES" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-21" value="RED BLOOD" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FX_y17xqAzENTxjthQCr-24" value="CIRCULATORY SYSTEM ENTITIES" style="text;html=1;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="100" y="450" width="170" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
