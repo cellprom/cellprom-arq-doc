@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T12:47:55.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="UFwHLZT-80Dt8ChLF3VL" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-23T12:58:45.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="ESlPgpOzaACUk-gtyz2K" version="20.5.3" type="github" pages="6">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="2842" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,8 +78,8 @@
           <mxGeometry x="414" y="800" width="60" height="30" as="geometry" />
         </mxCell>
         <UserObject label="NEXT TODO:&lt;br&gt;&lt;br&gt;- Completar los esquemas de sistema respiratorio&lt;br&gt;- Completar los esquemas de sistema digestivo&lt;br&gt;- Definir esquema AVRO de entrada al Loader Front" link="https://medicoplus.com/medicina-general/organos-cuerpo-humano" id="DWbYUS_qwRUuCJfKVVCt-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;" parent="1" vertex="1">
-            <mxGeometry x="-720" y="700" width="500" height="150" as="geometry" />
+          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+            <mxGeometry x="-740" y="700" width="540" height="270" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
