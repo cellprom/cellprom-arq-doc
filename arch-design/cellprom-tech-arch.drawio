@@ -1,4 +1,4 @@
-<mxfile modified="2022-11-28T12:47:06.388Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="DTwYlzNBQ18SSGlcWeGe" version="20.6.0" type="github" pages="3">
+<mxfile modified="2022-11-28T13:09:30.381Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="TuhFhxK57TbMM8GwAdmU" version="20.6.0" type="github" pages="3">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Global Tech Arch N1">
     <mxGraphModel dx="2015" dy="1122" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -263,6 +263,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="gZty8VPXVOZJYGONjp-G-4" target="Itw69LVcukYybpehLubs-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="533" y="614" />
+              <mxPoint x="533" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gZty8VPXVOZJYGONjp-G-4" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700; text-align: left;&quot;&gt;maker-organs&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
           <mxGeometry x="450" y="600" width="55.00000000000001" height="45" as="geometry" />
         </mxCell>
@@ -350,6 +358,86 @@
         </mxCell>
         <mxCell id="XvpGTvXKrxB9c3unC5ro-10" value="GRAFANA&lt;br&gt;KIBANA" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.web_roles;" vertex="1" parent="1">
           <mxGeometry x="-74" y="435" width="55.00000000000001" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XvpGTvXKrxB9c3unC5ro-15" target="XvpGTvXKrxB9c3unC5ro-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XvpGTvXKrxB9c3unC5ro-15" target="bsk3A0dhJ6sxfHsW2Bo--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XvpGTvXKrxB9c3unC5ro-15" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700;&quot;&gt;pulse&lt;br&gt;Spring Batch&lt;br&gt;&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="999" y="634" width="55.00000000000001" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="Itw69LVcukYybpehLubs-4" target="bsk3A0dhJ6sxfHsW2Bo--1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="881" />
+              <mxPoint x="237" y="881" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-4" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700; text-align: left;&quot;&gt;orch-organ&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="376" y="993" width="55.00000000000001" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Itw69LVcukYybpehLubs-5" target="bsk3A0dhJ6sxfHsW2Bo--1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72" y="880" />
+              <mxPoint x="237" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-5" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700;&quot;&gt;orch-patient&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="44" y="993" width="55.00000000000001" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="Itw69LVcukYybpehLubs-6" target="bsk3A0dhJ6sxfHsW2Bo--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-6" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700; text-align: left;&quot;&gt;orch-biosystem&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="210" y="993" width="55.00000000000001" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="Itw69LVcukYybpehLubs-7" target="bsk3A0dhJ6sxfHsW2Bo--1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="881" />
+              <mxPoint x="237" y="881" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Itw69LVcukYybpehLubs-6" target="XvpGTvXKrxB9c3unC5ro-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="238" y="880" />
+              <mxPoint x="757" y="880" />
+              <mxPoint x="757" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-7" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700; text-align: left;&quot;&gt;orch-biocell&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="544" y="993" width="55.00000000000001" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Itw69LVcukYybpehLubs-14" target="XvpGTvXKrxB9c3unC5ro-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="525" />
+              <mxPoint x="632" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-14" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700; text-align: left;&quot;&gt;maker-tumour&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="569" y="507.5" width="55.00000000000001" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="Itw69LVcukYybpehLubs-19" target="XvpGTvXKrxB9c3unC5ro-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="950" />
+              <mxPoint x="758" y="950" />
+              <mxPoint x="758" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Itw69LVcukYybpehLubs-19" value="&lt;span style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-weight: 700; text-align: left;&quot;&gt;orch-tumour&lt;/span&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="701" y="993" width="55.00000000000001" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
