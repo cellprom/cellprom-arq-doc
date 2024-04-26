@@ -1,4 +1,4 @@
-<mxfile modified="2024-04-26T11:02:52.143Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="egmsfHT9YJqfhjY-WpoC" version="24.3.0" type="github" pages="6">
+<mxfile modified="2024-04-26T11:03:28.819Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="8iAUivBquyhWDJ0NYcHQ" version="24.3.0" type="github" pages="6">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Global Tech Arch N1 V1">
     <mxGraphModel dx="1628" dy="966" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -947,7 +947,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yChVJ3HvQblQrISsRdSB-16" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Id&quot;: &quot;CELL-000001&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Date&quot;: &amp;lt;Timestamp&amp;gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Life Phase&quot;: &quot;ACTIVA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Health Level&quot;: &quot;87&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;align=left;verticalAlign=top;size=33;position=0.13;" vertex="1" parent="1">
-          <mxGeometry x="711" y="-35" width="312" height="277" as="geometry" />
+          <mxGeometry x="711" y="-35" width="159" height="277" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
