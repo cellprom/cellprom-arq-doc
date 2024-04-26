@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T17:30:56.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.55" etag="CjVJcA2w8-KcsfKG9xsj" version="20.8.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-04-26T11:14:45.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Xr_zssYWWFb5UA_jRRx7" version="24.3.0" type="github" pages="6">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
-    <mxGraphModel dx="3468" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2688" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
         <mxCell id="EpF7WC67ICtsQia1E6r4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EpF7WC67ICtsQia1E6r4-3" target="OaO8W6YDeW8j8XCaVgdy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EpF7WC67ICtsQia1E6r4-3" value="TUMOUR&lt;br&gt;&lt;br&gt;- Size&lt;br&gt;- Location&lt;br&gt;- Number wasted cells" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="EpF7WC67ICtsQia1E6r4-3" value="TUMOUR&lt;br&gt;&lt;br&gt;- Location&lt;br&gt;- Number wasted cells" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="710" width="190" height="260" as="geometry" />
         </mxCell>
         <mxCell id="EpF7WC67ICtsQia1E6r4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EpF7WC67ICtsQia1E6r4-3" target="OaO8W6YDeW8j8XCaVgdy-5" edge="1">
@@ -173,21 +173,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U2mYNKG8Bb0zKvq4t59I" name="CELULA">
-    <mxGraphModel dx="2641" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1954" dy="1159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CJuzdTtkHHHPnk4-6KMi-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Estado: ACTIVA" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-1" value="CÉLULA&lt;br&gt;&lt;br&gt;- Nombre: CELL-000001&lt;br&gt;- Organo: ESTOMAGO&lt;br&gt;- Sistema: DIGESTIVO&lt;br&gt;- Paciente: PEDRO&lt;br&gt;- Tipo: MUSCULAR&lt;br&gt;- Subtipo&lt;br&gt;- Indicadores: IND-CELL-000001&lt;br&gt;- Ciclo: ACTIVA&lt;div&gt;- Contaminación: 87&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="50" width="240" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="CJuzdTtkHHHPnk4-6KMi-2" value="ESTADOS CELULARES&lt;br&gt;&lt;br&gt;ACTIVA&lt;br&gt;REPLICANDO&lt;br&gt;APOPTOSIS&lt;br&gt;MUERTA&lt;br&gt;NO RECONOCIDO" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="CJuzdTtkHHHPnk4-6KMi-2" value="CICLO VIDA&lt;br&gt;&lt;br&gt;ACTIVA&lt;br&gt;REPLICANDO&lt;br&gt;APOPTOSIS&lt;br&gt;MUERTA&lt;br&gt;NO RECONOCIDO" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="50" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="CJuzdTtkHHHPnk4-6KMi-3" value="TIPOS CELULARES&lt;br&gt;&lt;br&gt;https://medicoplus.com/ciencia/tipos-celulas-cuerpo-humano" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="230" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="F0BRhhFGkOtlAMf_oIKe-1" value="Importante tener en cuenta las Celulas tipo MADRE que pueden convertirse en cualquier otra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="F0BRhhFGkOtlAMf_oIKe-1" value="Importante tener en cuenta las Celulas tipo MADRE que pueden convertirse en cualquier otra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="130" y="420" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T6cL6wyyDeJjwDA7Gud--1" value="De los campos mas importantes distinguimos dos:&lt;br&gt;- Ciclo: Es la fase de vida que está afrontando la célula&lt;div&gt;- Contaminación: el porcentaje cancerígeno que representa, EL MÁS IMPORTANTE&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="475" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6cL6wyyDeJjwDA7Gud--3" value="&lt;b style=&quot;text-align: left; text-wrap: nowrap;&quot;&gt;Baremos de Contaminación:&lt;/b&gt;&lt;div style=&quot;font-weight: 400; text-align: left; text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; text-wrap: nowrap;&quot;&gt;0 al 25% : &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Célula Sana (Color azul cyan clarito)&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; text-wrap: nowrap;&quot;&gt;25% al 50%: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Célula cansada (Color azul oscuro)&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; text-wrap: nowrap;&quot;&gt;50% al 75%: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Célula en riesgo (Color amarillo)&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; text-wrap: nowrap;&quot;&gt;75% al 85%: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Célula contaminada benigna&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; text-wrap: nowrap;&quot;&gt;85% al 100%: &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Célula cancerígena maligna&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="585" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T6cL6wyyDeJjwDA7Gud--4" value="&lt;font color=&quot;#000000&quot;&gt;Reducimos&lt;/font&gt;" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="60" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="T6cL6wyyDeJjwDA7Gud--5" value="&lt;div style=&quot;font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &quot;Id&quot;: &quot;CELL000001-CRZ-CARD-DNI&quot;,&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &quot;Date&quot;: &amp;lt;Timestamp&amp;gt;,&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &quot;Life Phase&quot;: &quot;ACTIVA&quot;,&lt;/div&gt;&lt;div style=&quot;font-weight: 400; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &quot;Health Level&quot;: &quot;87&quot;&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="790" width="280" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -655,7 +667,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yQwIVU-CH544WIDebpdZ" name="PACIENTE">
-    <mxGraphModel dx="2641" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1954" dy="1159" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
