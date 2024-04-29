@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Cellprom - OpenAPI 3.0",
+    "title": "Cellprom API",
     "description": "Audit Human Healthy Cells",
     "termsOfService": "http://swagger.io/terms/",
     "contact": {
