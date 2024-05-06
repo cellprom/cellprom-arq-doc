@@ -455,11 +455,33 @@ components:
             - Unknown
   requestBodies:
     Cell:
-      description: Cell unit medition for human healthy
+      description: Corps Cells
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/Cell'
-        application/xml:
+    Organ:
+      description: Corps Organ
+      content:
+        application/json:
           schema:
-            $ref: '#/components/schemas/Cell'
+            $ref: '#/components/schemas/Organ'
+    System:
+      description: Corps System
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/System'
+    Tumour:
+      description: Corps Tumour
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Tumour'
+    Patient:
+      description: Patient
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Patient'
+        
