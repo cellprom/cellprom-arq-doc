@@ -1,4 +1,4 @@
-<mxfile modified="2024-05-06T08:50:43.242Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="TBXz3lOeNBoyhqXWcsiV" version="24.3.1" type="github" pages="7">
+<mxfile modified="2024-05-06T14:09:27.192Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="aHPIK46VvEwNiIpyOK5B" version="24.3.1" type="github" pages="8">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Global Tech Arch N1 V1">
     <mxGraphModel dx="4514" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1082,6 +1082,17 @@
         </mxCell>
         <mxCell id="HFzAG5RdW5GY0ylLdnBD-33" value="Stack III DB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="142" y="1392" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fdGeyHu6JxjSTdGTDIGy" name="Orchestry">
+    <mxGraphModel dx="2790" dy="1558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NGt3DBTjtd97hLQOqh8o-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Retos&lt;/h1&gt;&lt;p&gt;- Calcular el id celular&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="-306" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
