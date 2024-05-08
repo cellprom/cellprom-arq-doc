@@ -59,9 +59,7 @@ paths:
             - - 'arn:aws:apigateway:'
               - Ref: AWS::Region
               - ':lambda:path/2015-03-31/functions/'
-              - Fn::GetAtt:
-                  - CreateCellLambda
-                  - Arn
+              - Ref: ArnCreateCellLambdaParameter
               - /invocations
         responses:
           default:
@@ -110,9 +108,7 @@ paths:
             - - 'arn:aws:apigateway:'
               - Ref: AWS::Region
               - ':lambda:path/2015-03-31/functions/'
-              - Fn::GetAtt:
-                  - CreateOrganLambda
-                  - Arn
+              - Ref: ArnCreateOrganLambdaParameter
               - /invocations
         responses:
           default:
@@ -161,9 +157,7 @@ paths:
             - - 'arn:aws:apigateway:'
               - Ref: AWS::Region
               - ':lambda:path/2015-03-31/functions/'
-              - Fn::GetAtt:
-                  - CreateSystemLambda
-                  - Arn
+              - Ref: ArnCreateSystemLambdaParameter
               - /invocations
         responses:
           default:
@@ -212,9 +206,7 @@ paths:
             - - 'arn:aws:apigateway:'
               - Ref: AWS::Region
               - ':lambda:path/2015-03-31/functions/'
-              - Fn::GetAtt:
-                  - CreateTumourLambda
-                  - Arn
+              - Ref: ArnCreateTumourLambdaParameter
               - /invocations
         responses:
           default:
@@ -263,9 +255,7 @@ paths:
             - - 'arn:aws:apigateway:'
               - Ref: AWS::Region
               - ':lambda:path/2015-03-31/functions/'
-              - Fn::GetAtt:
-                  - CreatePatientLambda
-                  - Arn
+              - Ref: ArnCreatePatientLambdaParameter
               - /invocations
         responses:
           default:
