@@ -49,23 +49,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-        x-amazon-apigateway-integration:
-          type: aws_proxy
-          httpMethod: POST
-          passthroughBehavior: when_no_templates
-          uri:
-            Fn::Join:
-              - ''
-              - - 'arn:aws:apigateway:'
-                - Ref: AWS::Region
-                - ':lambda:path/2015-03-31/functions/'
-                - Fn::GetAtt:
-                    - CreateCellLambda
-                    - Arn
-                - /invocations
-          responses:
-            default:
-              statusCode: '200'
+      x-amazon-apigateway-integration:
+        type: aws_proxy
+        httpMethod: POST
+        passthroughBehavior: when_no_templates
+        uri:
+          Fn::Join:
+            - ''
+            - - 'arn:aws:apigateway:'
+              - Ref: AWS::Region
+              - ':lambda:path/2015-03-31/functions/'
+              - Fn::GetAtt:
+                  - CreateCellLambda
+                  - Arn
+              - /invocations
+        responses:
+          default:
+            statusCode: '200'
   /organ/create:
     post:
       tags:
@@ -100,23 +100,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-        x-amazon-apigateway-integration:
-          type: aws_proxy
-          httpMethod: POST
-          passthroughBehavior: when_no_templates
-          uri:
-            Fn::Join:
-              - ''
-              - - 'arn:aws:apigateway:'
-                - Ref: AWS::Region
-                - ':lambda:path/2015-03-31/functions/'
-                - Fn::GetAtt:
-                    - CreateOrganLambda
-                    - Arn
-                - /invocations
-          responses:
-            default:
-              statusCode: '200'
+      x-amazon-apigateway-integration:
+        type: aws_proxy
+        httpMethod: POST
+        passthroughBehavior: when_no_templates
+        uri:
+          Fn::Join:
+            - ''
+            - - 'arn:aws:apigateway:'
+              - Ref: AWS::Region
+              - ':lambda:path/2015-03-31/functions/'
+              - Fn::GetAtt:
+                  - CreateOrganLambda
+                  - Arn
+              - /invocations
+        responses:
+          default:
+            statusCode: '200'
   /system/create:
     post:
       tags:
@@ -151,23 +151,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-        x-amazon-apigateway-integration:
-          type: aws_proxy
-          httpMethod: POST
-          passthroughBehavior: when_no_templates
-          uri:
-            Fn::Join:
-              - ''
-              - - 'arn:aws:apigateway:'
-                - Ref: AWS::Region
-                - ':lambda:path/2015-03-31/functions/'
-                - Fn::GetAtt:
-                    - CreateSystemLambda
-                    - Arn
-                - /invocations
-          responses:
-            default:
-              statusCode: '200'
+      x-amazon-apigateway-integration:
+        type: aws_proxy
+        httpMethod: POST
+        passthroughBehavior: when_no_templates
+        uri:
+          Fn::Join:
+            - ''
+            - - 'arn:aws:apigateway:'
+              - Ref: AWS::Region
+              - ':lambda:path/2015-03-31/functions/'
+              - Fn::GetAtt:
+                  - CreateSystemLambda
+                  - Arn
+              - /invocations
+        responses:
+          default:
+            statusCode: '200'
   /tumour/create:
     post:
       tags:
@@ -202,23 +202,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-        x-amazon-apigateway-integration:
-          type: aws_proxy
-          httpMethod: POST
-          passthroughBehavior: when_no_templates
-          uri:
-            Fn::Join:
-              - ''
-              - - 'arn:aws:apigateway:'
-                - Ref: AWS::Region
-                - ':lambda:path/2015-03-31/functions/'
-                - Fn::GetAtt:
-                    - CreateTumourLambda
-                    - Arn
-                - /invocations
-          responses:
-            default:
-              statusCode: '200'
+      x-amazon-apigateway-integration:
+        type: aws_proxy
+        httpMethod: POST
+        passthroughBehavior: when_no_templates
+        uri:
+          Fn::Join:
+            - ''
+            - - 'arn:aws:apigateway:'
+              - Ref: AWS::Region
+              - ':lambda:path/2015-03-31/functions/'
+              - Fn::GetAtt:
+                  - CreateTumourLambda
+                  - Arn
+              - /invocations
+        responses:
+          default:
+            statusCode: '200'
   /patient/create:
     post:
       tags:
@@ -253,23 +253,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-        x-amazon-apigateway-integration:
-          type: aws_proxy
-          httpMethod: POST
-          passthroughBehavior: when_no_templates
-          uri:
-            Fn::Join:
-              - ''
-              - - 'arn:aws:apigateway:'
-                - Ref: AWS::Region
-                - ':lambda:path/2015-03-31/functions/'
-                - Fn::GetAtt:
-                    - CreatePatientLambda
-                    - Arn
-                - /invocations
-          responses:
-            default:
-              statusCode: '200'
+      x-amazon-apigateway-integration:
+        type: aws_proxy
+        httpMethod: POST
+        passthroughBehavior: when_no_templates
+        uri:
+          Fn::Join:
+            - ''
+            - - 'arn:aws:apigateway:'
+              - Ref: AWS::Region
+              - ':lambda:path/2015-03-31/functions/'
+              - Fn::GetAtt:
+                  - CreatePatientLambda
+                  - Arn
+              - /invocations
+        responses:
+          default:
+            statusCode: '200'
 components:
   schemas:
     Cell:
