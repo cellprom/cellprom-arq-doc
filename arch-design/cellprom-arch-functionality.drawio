@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T10:37:18.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="G9bYRPveKKSp1T--TGO_" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-05-08T10:42:08.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="PnBLbNXJz9UiB3az2nFb" version="24.3.1" type="github" pages="7">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="1829" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -715,7 +715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yQwIVU-CH544WIDebpdZ" name="PACIENTE">
-    <mxGraphModel dx="1990" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1002" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -724,6 +724,12 @@
         </mxCell>
         <mxCell id="RLy7l9dDt050YYcQej_e-2" value="ESTADOS&lt;br&gt;&lt;br&gt;- SANO&lt;br&gt;- WARNING&lt;br&gt;- GRAVE&lt;br&gt;- TERMINAL&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="70" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s8kw7pgDe0YXDCsIIrK5-1" value="&lt;b&gt;Event Test - Type API Gateway AWS Proxy&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;body&quot;: &quot;&lt;span style=&quot;color: inherit; font-family: var(--bs-font-monospace); font-size: inherit; background-color: rgb(255, 255, 255); text-wrap: wrap;&quot;&gt;{\r\n  \&quot;name\&quot;: \&quot;Silver\&quot;,\r\n  \&quot;surname\&quot;: \&quot;Middleton\&quot;,\r\n  \&quot;dni\&quot;: \&quot;999999999W\&quot;,\r\n  \&quot;birth\&quot;: \&quot;1980\/10\/05\&quot;,\r\n  \&quot;age\&quot;: 43,\r\n  \&quot;diagnostic\&quot;: \&quot;\&quot;,\r\n  \&quot;status\&quot;: \&quot;Healthy\&quot;\r\n}&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;path&quot;: &quot;/cell/create&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;httpMethod&quot;: &quot;POST&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;headers&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Content-Type&quot;: &quot;application/json&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;User-Agent&quot;: &quot;Test Lambda Event&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="70" width="1010" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="s8kw7pgDe0YXDCsIIrK5-2" value="&lt;b&gt;API Client Test&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;curl --request POST \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --url https://9ped90ufl3.execute-api.eu-west-3.amazonaws.com/dev/patient/create \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --header &#39;content-type: application/json&#39; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; --data &#39;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;name&quot;: &quot;Silver&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;surname&quot;: &quot;Middleton&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;dni&quot;: &quot;999999999W&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;birth&quot;: &quot;1980/10/05&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;age&quot;: 43,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;diagnostic&quot;: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;status&quot;: &quot;Healthy&quot;&lt;/div&gt;&lt;div&gt;}&#39;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="285" width="470" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
