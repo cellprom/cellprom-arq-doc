@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T12:40:36.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="F7-1is6r4srxXxw3L826" version="24.3.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-05-09T14:42:44.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="bDjdbC-2MVh-JEnD6LxJ" version="24.3.1" type="github" pages="8">
   <diagram id="_cN58llFPaat6uqs2sQy" name="MD">
     <mxGraphModel dx="2213" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -924,8 +924,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FcaPAl2wK4al9HMvTh5N-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Event Schema&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;type&quot;:&quot;createCell&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;message&quot;: &quot;{fields}&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;date&quot;: UTC time&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="60" width="440" height="240" as="geometry" />
+        <mxCell id="FcaPAl2wK4al9HMvTh5N-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Event for EventBridge Bus Rule&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;id&quot;: &quot;e00c66cb-fe7a-4fcc-81ad-58eb60f5d96b&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;account&quot;: &quot;694119747852&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;region&quot;: &quot;us-west-3&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;source&quot;: &quot;createCellLambda&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;detail-type&quot;: &quot;cell events&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;time&quot;: &quot;2016-01-10T01:29:23Z&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;detail&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;idCell&quot;: &quot;CELL000089&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;idPatient&quot;: &quot;999999999S&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;system&quot;: &quot;Respiratory&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;organ&quot;: &quot;Lung&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;phase&quot;: &quot;ACTIVE&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;pollution&quot;: &quot;87&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="440" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FcaPAl2wK4al9HMvTh5N-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Event Pattern for EventBridge Bus Rule&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;source&quot;: [&quot;createCellLambda&quot;]&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="440" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
