@@ -1,4 +1,4 @@
-<mxfile modified="2024-05-23T15:26:06.880Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="s7rXuFU2UdG8FtDSrXyC" version="24.4.4" type="github" pages="9">
+<mxfile modified="2024-05-23T15:48:00.294Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="_cSxM1pAU1N_pStZaV_M" version="24.4.4" type="github" pages="9">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Global Tech Arch N1 V1">
     <mxGraphModel dx="1938" dy="1142" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1183,7 +1183,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="p0bm59REpftwshnpMkXQ" name="Arq Maker Patient (MVP2)">
+  <diagram id="p0bm59REpftwshnpMkXQ" name="Stack Arq">
     <mxGraphModel dx="2186" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1330,14 +1330,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HFzAG5RdW5GY0ylLdnBD-29" value="Stack I Lambdas" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-98" y="1210" width="120" height="60" as="geometry" />
+        <mxCell id="HFzAG5RdW5GY0ylLdnBD-29" value="Stack III Lambdas" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1269" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HFzAG5RdW5GY0ylLdnBD-31" value="Stack II API Gateway" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="22" y="1298" width="120" height="60" as="geometry" />
+        <mxCell id="HFzAG5RdW5GY0ylLdnBD-31" value="Stack IV API Gateway" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="1357" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HFzAG5RdW5GY0ylLdnBD-33" value="Stack III DB" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="142" y="1392" width="120" height="60" as="geometry" />
+        <mxCell id="HFzAG5RdW5GY0ylLdnBD-33" value="Stack V DB" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1451" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vusbdeehn2Dcx46JVBn7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vusbdeehn2Dcx46JVBn7-2" target="HFzAG5RdW5GY0ylLdnBD-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1381,6 +1381,54 @@
         </mxCell>
         <mxCell id="vusbdeehn2Dcx46JVBn7-13" value="log group&lt;br&gt;/aws/events/cellprom" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vusbdeehn2Dcx46JVBn7-5" vertex="1" connectable="0">
           <mxGeometry x="-0.0385" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-1" value="Stack I Networking" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-206" y="1129" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-2" value="Stack II Security" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="1209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="5DungOVm_vBvERWoQfxb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-206" y="1098" as="sourcePoint" />
+            <mxPoint x="-29" y="1198" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-206" y="1099" />
+              <mxPoint x="-19" y="1099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="5DungOVm_vBvERWoQfxb-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-206" y="1098" as="sourcePoint" />
+            <mxPoint x="-19" y="1209" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-206" y="1099" />
+              <mxPoint x="-146" y="1099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5DungOVm_vBvERWoQfxb-2" target="HFzAG5RdW5GY0ylLdnBD-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-92.5" y="1318" as="sourcePoint" />
+            <mxPoint x="-32.5" y="1376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-6" value="role lambda&lt;div&gt;security groups&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5DungOVm_vBvERWoQfxb-5">
+          <mxGeometry x="-0.3898" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5DungOVm_vBvERWoQfxb-1" target="5DungOVm_vBvERWoQfxb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-219" y="1235" as="sourcePoint" />
+            <mxPoint x="-130" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DungOVm_vBvERWoQfxb-8" value="VPC&lt;div&gt;subnets&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5DungOVm_vBvERWoQfxb-7">
+          <mxGeometry x="-0.3898" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
