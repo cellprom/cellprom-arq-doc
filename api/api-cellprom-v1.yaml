@@ -1,7 +1,8 @@
 openapi: 3.0.3
 info:
   title: Cellprom API
-  description: Audit Human Healthy Cells
+  description: |-
+    Audit Human Healthy Cells
   termsOfService: http://swagger.io/terms/
   contact:
     email: rcifuster@gmail.com
@@ -41,7 +42,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Cell'
+                $ref: '#/components/schemas/Cell'          
             application/xml:
               schema:
                 $ref: '#/components/schemas/Cell'
@@ -49,21 +50,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-      x-amazon-apigateway-integration:
-        type: aws_proxy
-        httpMethod: POST
-        passthroughBehavior: when_no_templates
-        uri:
-          Fn::Join:
-            - ''
-            - - 'arn:aws:apigateway:'
-              - Ref: AWS::Region
-              - ':lambda:path/2015-03-31/functions/'
-              - Ref: ArnCreateCellLambdaParameter
-              - /invocations
-        responses:
-          default:
-            statusCode: '200'
+        x-amazon-apigateway-integration:
+            type: "aws_proxy"
+            httpMethod: "POST"
+            passthroughBehavior: when_no_templates
+            uri:
+                  Fn::Join:
+                  - ''
+                  - - 'arn:aws:apigateway:'
+                    - Ref: AWS::Region
+                    - ":lambda:path/2015-03-31/functions/"
+                    - Fn::GetAtt:
+                      - CreateCellLambda
+                      - Arn
+                    - "/invocations"
+            responses:
+                  default:
+                    statusCode: '200'
   /organ/create:
     post:
       tags:
@@ -90,7 +93,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Organ'
+                $ref: '#/components/schemas/Organ'          
             application/xml:
               schema:
                 $ref: '#/components/schemas/Organ'
@@ -98,21 +101,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-      x-amazon-apigateway-integration:
-        type: aws_proxy
-        httpMethod: POST
-        passthroughBehavior: when_no_templates
-        uri:
-          Fn::Join:
-            - ''
-            - - 'arn:aws:apigateway:'
-              - Ref: AWS::Region
-              - ':lambda:path/2015-03-31/functions/'
-              - Ref: ArnCreateOrganLambdaParameter
-              - /invocations
-        responses:
-          default:
-            statusCode: '200'
+        x-amazon-apigateway-integration:
+            type: "aws_proxy"
+            httpMethod: "POST"
+            passthroughBehavior: when_no_templates
+            uri:
+                  Fn::Join:
+                  - ''
+                  - - 'arn:aws:apigateway:'
+                    - Ref: AWS::Region
+                    - ":lambda:path/2015-03-31/functions/"
+                    - Fn::GetAtt:
+                      - CreateOrganLambda
+                      - Arn
+                    - "/invocations"
+            responses:
+                  default:
+                    statusCode: '200'
   /system/create:
     post:
       tags:
@@ -139,7 +144,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/System'
+                $ref: '#/components/schemas/System'          
             application/xml:
               schema:
                 $ref: '#/components/schemas/System'
@@ -147,21 +152,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-      x-amazon-apigateway-integration:
-        type: aws_proxy
-        httpMethod: POST
-        passthroughBehavior: when_no_templates
-        uri:
-          Fn::Join:
-            - ''
-            - - 'arn:aws:apigateway:'
-              - Ref: AWS::Region
-              - ':lambda:path/2015-03-31/functions/'
-              - Ref: ArnCreateSystemLambdaParameter
-              - /invocations
-        responses:
-          default:
-            statusCode: '200'
+        x-amazon-apigateway-integration:
+            type: "aws_proxy"
+            httpMethod: "POST"
+            passthroughBehavior: when_no_templates
+            uri:
+                  Fn::Join:
+                  - ''
+                  - - 'arn:aws:apigateway:'
+                    - Ref: AWS::Region
+                    - ":lambda:path/2015-03-31/functions/"
+                    - Fn::GetAtt:
+                      - CreateSystemLambda
+                      - Arn
+                    - "/invocations"
+            responses:
+                  default:
+                    statusCode: '200'
   /tumour/create:
     post:
       tags:
@@ -188,7 +195,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Tumour'
+                $ref: '#/components/schemas/Tumour'          
             application/xml:
               schema:
                 $ref: '#/components/schemas/Tumour'
@@ -196,21 +203,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-      x-amazon-apigateway-integration:
-        type: aws_proxy
-        httpMethod: POST
-        passthroughBehavior: when_no_templates
-        uri:
-          Fn::Join:
-            - ''
-            - - 'arn:aws:apigateway:'
-              - Ref: AWS::Region
-              - ':lambda:path/2015-03-31/functions/'
-              - Ref: ArnCreateTumourLambdaParameter
-              - /invocations
-        responses:
-          default:
-            statusCode: '200'
+        x-amazon-apigateway-integration:
+            type: "aws_proxy"
+            httpMethod: "POST"
+            passthroughBehavior: when_no_templates
+            uri:
+                  Fn::Join:
+                  - ''
+                  - - 'arn:aws:apigateway:'
+                    - Ref: AWS::Region
+                    - ":lambda:path/2015-03-31/functions/"
+                    - Fn::GetAtt:
+                      - CreateTumourLambda
+                      - Arn
+                    - "/invocations"
+            responses:
+                  default:
+                    statusCode: '200'
   /patient/create:
     post:
       tags:
@@ -237,7 +246,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Patient'
+                $ref: '#/components/schemas/Patient'          
             application/xml:
               schema:
                 $ref: '#/components/schemas/Patient'
@@ -245,21 +254,23 @@ paths:
           description: Invalid input
         '422':
           description: Validation exception
-      x-amazon-apigateway-integration:
-        type: aws_proxy
-        httpMethod: POST
-        passthroughBehavior: when_no_templates
-        uri:
-          Fn::Join:
-            - ''
-            - - 'arn:aws:apigateway:'
-              - Ref: AWS::Region
-              - ':lambda:path/2015-03-31/functions/'
-              - Ref: ArnCreatePatientLambdaParameter
-              - /invocations
-        responses:
-          default:
-            statusCode: '200'
+        x-amazon-apigateway-integration:
+            type: "aws_proxy"
+            httpMethod: "POST"
+            passthroughBehavior: when_no_templates
+            uri:
+                  Fn::Join:
+                  - ''
+                  - - 'arn:aws:apigateway:'
+                    - Ref: AWS::Region
+                    - ":lambda:path/2015-03-31/functions/"
+                    - Fn::GetAtt:
+                      - CreatePatientLambda
+                      - Arn
+                    - "/invocations"
+            responses:
+                  default:
+                    statusCode: '200'
 components:
   schemas:
     Cell:
@@ -287,16 +298,6 @@ components:
           format: string
           example: Circulatory
           description: System hosting this cell
-          enum:
-            - Digestive
-            - Circulatory
-            - Respiratory
-            - Reproductive
-            - Endocrine
-            - Skeletal
-            - Lymphatic
-            - Urinary
-            - Immune
         organ:
           type: string
           format: string
@@ -322,6 +323,7 @@ components:
         - name
         - idPatient
         - system
+        - cells
         - pollution
         - tumours
       type: object
@@ -341,25 +343,20 @@ components:
           format: string
           example: Respiratory
           description: System hosting this organ
-          enum:
-            - Digestive
-            - Circulatory
-            - Respiratory
-            - Reproductive
-            - Endocrine
-            - Skeletal
-            - Lymphatic
-            - Urinary
-            - Immune
+        cells:
+          type: integer
+          format: integer
+          example: 32642344
+          description: Cells hosted by this organ
         pollution:
           type: integer
-          example: 23
           format: integer
+          example: 23
           description: Cellular toxicity level in %
         tumours:
           type: integer
-          example: 3
           format: integer
+          example: 3
           description: Number of tumours in this organ detected
     System:
       required:
@@ -374,16 +371,6 @@ components:
           format: string
           example: Circulatory
           description: System name
-          enum:
-            - Digestive
-            - Circulatory
-            - Respiratory
-            - Reproductive
-            - Endocrine
-            - Skeletal
-            - Lymphatic
-            - Urinary
-            - Immune
         idPatient:
           type: string
           format: string
@@ -409,7 +396,7 @@ components:
         location:
           type: string
           format: string
-          example: Heart
+          example: Hearth
           description: Owner organ
         idPatient:
           type: string
@@ -448,7 +435,7 @@ components:
           description: Patient identifier
         birth:
           type: string
-          example: 1983/10/21
+          example: "1983/10/21"
           format: string
           description: Date of birth YYYY/MM/DD
         age:
@@ -503,3 +490,4 @@ components:
         application/json:
           schema:
             $ref: '#/components/schemas/Patient'
+        
